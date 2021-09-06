@@ -2,9 +2,9 @@
 using namespace std;
 void slove()
 {
-   ll s,n;
+   long long s,n;
    cin>>s>>n;
-   ll p=pow(10,int(log10(s)));
+   long long p=pow(10,int(log10(s)));
    while(n>1){
         while((s-p)<(n-1))
             p/=10;
